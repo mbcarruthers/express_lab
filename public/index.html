@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<meta charset="UTF-8">
 	<title>Express lab</title>
 </head>
 <body>
+<h4>Express Lab</h4>
+<form action="/formsubmissions" method="post">
+
+	<label for="first_name"></label>
+	<input type="text" name="first_name" id="first_name" class="form-input" placeholder="first name">
+
+	<label for="last_name"></label>
+	<input type="text" name="last_name" id="last_name" class="form-input" placeholder="last name">
+
+	<label for="email"></label>
+	<input type="text" name="email" id="email" class="form-input" placeholder="email">
+
+	<label for="submit"></label>
+	<input type="submit" value="Submit Information" id="submit" class="btn btn-primary rounded">
+</form>
 
 
 <script src="js/script.js"></script>
